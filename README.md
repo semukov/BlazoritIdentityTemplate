@@ -27,3 +27,8 @@ Then, you need run command for migrations to your db:
 ```
 dotnet ef database update
 ```
+
+If you want use docker for PostgreSQL and your app, then look into DevOps folder and run docker-compose.yml file:
+```
+docker-compose up -d
+```
